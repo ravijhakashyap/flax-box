@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+		<div class="container">
+	<div class="box">box1</div>
+	<div class="box">box2</div>
+	<div class="box">box3</div>
+	<div class="box">box4</div>
+	<div class="box">box5</div>
+	</div>
+
+	<style>
+	*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+	.container{
+	width: 90%;
+	padding:20px;
+	margin:100px auto;
+	display: flex;
+	background: #ddd;
+}
+	.box{
+	height:400px;
+	padding:20px;
+	background: orange;
+	border:3px solid #ddd;
+	font-size:30px;
+	flex:1;
+}
+	.box:hover{
+	flex:4;
+	background: #023e8a;
+}
+</style>
+</body>
+</html>
